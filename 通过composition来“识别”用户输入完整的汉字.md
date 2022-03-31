@@ -16,7 +16,7 @@
 
 [compositionend](https://developer.mozilla.org/en-US/docs/Web/API/Element/compositionend_event)
 
-以上这三个事件，就是专门为了处理类似 拼音输入法 这一类的输入法而定义的
+以上这三个事件，就是专门为了处理 拼音输入法 这一类的输入法而定义的
 
 可以看一个简单的示例
 
