@@ -38,5 +38,7 @@ input.addEventListener('compositionend', (event) => {
 
 ## 拼音输入法和英文输入法切换
 
+真实的用户输入，通常会在两种输入法之间切换，如何处理？
+
 示例就不放了，大概就是 `compositionstart` 事件里加一个标记状态，`input` 事件中只处理非 `composition` 的情况，也就是英文输入法
 
