@@ -1,6 +1,6 @@
 # 如何识别Input输入的是完整的汉字
 
-用“识别”其实不是很准确，也可以换一种说法，怎么让 *Input* 输入框只返回完整的汉字
+用“识别”其实不是很准确，也可以换一种说法，怎么让 `Input` 输入框只返回完整的汉字
 
 ## 典型场景
 ![百度搜索示例](https://github.com/guanyx/fe_notes/blob/main/images/2022.03.31%E7%99%BE%E5%BA%A6%E6%90%9C%E7%B4%A2%E8%AF%8D%E7%A4%BA%E4%BE%8B.png?raw=true)
@@ -38,5 +38,5 @@ input.addEventListener('compositionend', (event) => {
 
 ## 拼音输入法和英文输入法切换
 
-示例就不放了，大概就是 *compositionstart* 事件里加一个标记状态，*input* 事件中只处理非 *composition* 的情况，也就是英文输入法
+示例就不放了，大概就是 `compositionstart` 事件里加一个标记状态，`input` 事件中只处理非 `composition` 的情况，也就是英文输入法
 
